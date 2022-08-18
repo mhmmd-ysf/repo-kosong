@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>Test Suite</title>
+<link rel="stylesheet" href="https://code.jquery.com/qunit/qunit-2.19.1.css">
+
+<body>
+  <div id="qunit"></div>
+  <div id="qunit-fixture"></div>
+  <script src="https://code.jquery.com/qunit/qunit-2.19.1.js"></script>
+  <script>
+    function add(a, b) {
+      return a + b;
+    }
+
+    // fn pindah ke sini
+    function getLocalStorage() {}
+
+    QUnit.module('Penjumlahan', function () {
+      QUnit.test('test 1+2', function (assert) {
+        assert.equal(6, 6);
+      });
+    });
+
+    // fetch(kawalcovid)
+    /*
+    QUnit.module("localStorage testing", () => {
+      Quit.test (memastikan nama di localStorage sesuai)
+    })
+    */
+  </script>
+</body>
